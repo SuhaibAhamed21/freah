@@ -17,7 +17,7 @@ SELECT  DISTINCT Product FROM amazon_sales;
 SELECT COUNT( DISTINCT Product) AS Products FROM amazon_sales;
 
 # TOP 5 PRODUCTS TOTAL SALES
-select Product, sum(Total_Sales) AS Total_sales_by_Product
+SELECT Product, SUM(Total_Sales) AS Total_sales_by_Product
 from amazon_sales
 GROUP BY Product
 ORDER BY Total_sales_by_Product DESC
