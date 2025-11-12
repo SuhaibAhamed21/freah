@@ -7,7 +7,7 @@ select*from amazon_sales;
 #TOTAL ROWS
 SELECT COUNT(*) FROM amazon_sales;
 
-#TOTAL SALES
+#TOTAL Salesss
 SELECT SUM(Total_Sales) AS Total_Sales FROM  amazon_sales;
 
 # UNIQUE PRODUCT
